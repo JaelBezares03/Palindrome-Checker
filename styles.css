@@ -1,0 +1,41 @@
+.negrita{
+  font-weight: 900;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2cd60;
+  font-family: 'Oswald', sans-serif;
+}
+main{
+  border: 5px solid #eaf2e3;
+  border-radius: 8px;
+  padding: 1rem 1.5rem ;
+  background-color:#eaf2e3 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#check-btn{
+  width: 80px;
+  height: 30px;
+  background-color: #61e8e1;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid #61e8e1;
+  border-radius: 8px;
+}
+#text-input{
+  height: 30px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid black;
+  
+}
+#result{
+  margin-top: 20px;
+}
